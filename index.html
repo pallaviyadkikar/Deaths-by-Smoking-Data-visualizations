@@ -336,7 +336,7 @@
             // .delay(function(d,i){return i*5})
             .attr("class", "bar")
             .attr("x", function(d) { return x(parseFloat(d.sales/190)); })
-            .attr("width", function(d) { console.log(d.sales/190); return (parseFloat(d.sales/190)); } )
+            .attr("width", function(d) { console.log(d.sales/190); return (parseFloat(d.sales/160)); } )
             // .attr("y", function(d) { return y(d.salesperson); })
             // .attr("height", y.bandwidth());
     d3.select("#yearchange").text(label.text() );
